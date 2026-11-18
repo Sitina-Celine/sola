@@ -1,0 +1,22 @@
+{
+  "name": "sola",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "author": "Celine Sitina",
+  "description": "sola.: a drink launch page with a countdown, waitlist, flavours and a subscription or one-time case through Stripe Checkout.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "stripe": "^23.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^8.3.8"
+  }
+}
